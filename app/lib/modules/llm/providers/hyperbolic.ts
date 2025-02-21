@@ -43,7 +43,13 @@ export default class HyperbolicProvider extends BaseProvider {
       provider: 'Hyperbolic',
       maxTokenAllowed: 8192,
     },
-  ];
+    {
+      name: 'deepseek-ai/DeepSeek-V3',
+      label: 'DeepSeek-V3',
+      provider: 'Hyperbolic',
+      maxTokenAllowed: 8192,
+    }
+  ];
 
   async getDynamicModels(
     apiKeys?: Record<string, string>,
